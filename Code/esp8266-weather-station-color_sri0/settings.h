@@ -25,8 +25,8 @@
 #include <TZ.h>
 
 // Setup
-#define WIFI_SSID "PierreJoigneaux124"
-#define WIFI_PASS "LaPetiteCabane123"
+#define WIFI_SSID "xxxxx change xxxxx"
+#define WIFI_PASS "xxxxx change xxxxx"
 #define WIFI_HOSTNAME "SRID-weather-station-color"
 
 const int UPDATE_INTERVAL_SECS = 10 * 60; // Update every 10 minutes
@@ -35,14 +35,14 @@ const int SLEEP_INTERVAL_SECS = 0;        // Going to sleep after idle times, se
 
 // OpenWeatherMap Settings
 // Sign up here to get an API key: https://docs.thingpulse.com/how-tos/openweathermap-key/
-String OPEN_WEATHER_MAP_APP_ID = "1bce1eab3c98dc879af9a1c235c919f3";
+String OPEN_WEATHER_MAP_APP_ID = "xxxxx your key xxxxx";
 /*
 Go to https://openweathermap.org/find?q= and search for a location. Go through the
 result set and select the entry closest to the actual location you want to display 
 data for. It'll be a URL like https://openweathermap.org/city/2657896. The number
 at the end is what you assign to the constant below.
  */
-String OPEN_WEATHER_MAP_LOCATION_ID = "3036572";
+String OPEN_WEATHER_MAP_LOCATION_ID = "xxxxx your location xxxxx";
 String DISPLAYED_CITY_NAME = "Asnieres sur Seine";
 /*
 Arabic -> ar, Bulgarian -> bg, Catalan -> ca, Czech -> cz, German -> de, Greek -> el,
